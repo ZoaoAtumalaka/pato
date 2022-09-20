@@ -1,0 +1,82 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+	background: #67a3fd;
+	padding: 20px 0;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 150px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 30px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #ffffff;
+}
+
+.pato{
+    width: 20%;
+    padding-right: 30px;
+}
+
+h1{   
+    padding-top: 50px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h2{   
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+p{
+    font-size: 25px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-left: 25px;
+}
+
+.patinhos{
+    width: 50%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: block;
+    margin: auto;
+}
+
+li.closed {
+    list-style:inside;
+    padding-left: 30px;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+  }
